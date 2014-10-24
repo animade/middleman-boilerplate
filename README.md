@@ -29,3 +29,10 @@ The site is now running at `http://0.0.0.0:4567/`
 Middleman builds to a static `build` folder in the root of the project. To create/update this simply run:
 
     middleman build
+
+## Deploying
+
+Builds the site as described above and then deploys it via rsync, ftp, sftp, or git. By default this will 
+push to Github Pages if you have a gh-pages branch setup for your repository.
+
+    middleman deploy
