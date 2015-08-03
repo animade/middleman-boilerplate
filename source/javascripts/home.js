@@ -1,6 +1,11 @@
 //= require "modernizr/modernizr.js"
 //= require "jquery"
 //= require "jquery.transit"
+//= require "EaselJS"
+//= require "SoundJS"
+//= require "TweenJS"
+//= require "PreloadJS"
+
 
 // -------------------------------------------------
 //
