@@ -4,11 +4,7 @@
   "dependencies": {
     "jquery.transit": "",
     "modernizr": "",
-    "normalize-css": "",
-    "PreloadJS": "~0.6.1",
-    "EaselJS": "~0.8.1",
-    "SoundJS": "~0.6.1",
-    "TweenJS": "~0.6.1"
+    "normalize-css": ""
   },
   "authors": [
     "James Chambers <james@animade.tv>"
