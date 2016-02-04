@@ -2,8 +2,6 @@
   "name": "Animade Middleman Boilerplate",
   "version": "0.0.1",
   "dependencies": {
-    "jquery.transit": "",
-    "modernizr": "",
     "normalize-css": ""
   },
   "authors": [

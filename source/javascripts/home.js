@@ -1,7 +1,3 @@
-//= require "modernizr/modernizr.js"
-//= require "jquery"
-//= require "jquery.transit"
-
 
 // -------------------------------------------------
 //
