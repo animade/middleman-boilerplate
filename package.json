@@ -1,5 +1,5 @@
 {
-  "name": "middleman_4_boilerplate",
+  "name": "balloons",
   "version": "1.0.0",
   "description": "Repo for the Animade Middleman Boilerplate.",
   "main": "index.js",
@@ -8,11 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://sneveu@bitbucket.org/sneveu/middleman-4-boilerplate.git"
+    "url": "git+https://sneveu@bitbucket.org/sneveu/balloons.git"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
     "three": "^0.79.0"
   },
   "devDependencies": {

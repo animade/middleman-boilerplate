@@ -1,42 +1,12 @@
-//= require "three"
+import THREE from 'three';
+import Balloon from './components/Balloon';
 
+export class App extends React.Component{
 
-// -------------------------------------------------
-//
-// Home
-// 
-// -------------------------------------------------
+  render() {
+    return <Balloon />;
+  }
 
-(function() {
+};
 
-  "use strict";
-
-  var Piece = function() {
-
-    var self = this;
-
-    self.init();
-
-  };
-
-  Piece.prototype = {
-
-    // -------------------------------------------------
-    //
-    // Initial scene setup
-    // 
-    // -------------------------------------------------
-
-    init: function() {
-
-      var self = this;
-
-      console.log('hello world');
-
-    }
-
-  };
-
-  new Piece();
-
-})();
+ReactDOM.render(<App />, document.getElementById('content'));

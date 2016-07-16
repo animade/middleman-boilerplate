@@ -19,7 +19,7 @@ module.exports = {
     loaders: [
 
       // JS
-      { test: /source\/javascripts\/.*\.js$/, exclude: /(node_modules|build)/, loader: 'babel-loader', query: {presets: ['es2015', 'stage-0']}},
+      { test: /source\/javascripts\/.*\.js$/, exclude: /(node_modules|build)/, loader: 'babel-loader', query: {presets: ['es2015', 'react']}},
 
       // SCSS
       { test: /\.scss$/, loader: ExtractTextPlugin.extract("style", "css!sass")},
@@ -37,8 +37,11 @@ module.exports = {
     // CSS output file
     new ExtractTextPlugin("stylesheets/app.css", {allChunks: true}),
 
-    // Make React object globally available
-    new webpack.ProvidePlugin({React: "react"})
+    // Make React globally available
+    new webpack.ProvidePlugin({
+      React: "react",
+      ReactDOM: "react-dom"
+    })
   ],
 
 };
