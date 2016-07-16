@@ -1,0 +1,18 @@
+// ==========================================================================
+//
+// Base CSS. 
+// Only include things which need to appear in *every* page
+//
+//
+
+@import "../../bower_components/normalize-css/normalize";
+
+// Installed as a gem for lots of annoying reasons
+@import "bourbon";
+
+body {
+
+  // Checks bourbon is running
+  @include transition(all 0.4s);
+
+}
