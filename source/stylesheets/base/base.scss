@@ -5,12 +5,13 @@
 //
 //
 
-@import "../../bower_components/normalize-css/normalize";
 
-// Installed as a gem for lots of annoying reasons
-@import "bourbon";
+@import "bourbon/bourbon";
 
 body {
+
+  margin: 0;
+
 
   // Checks bourbon is running
   @include transition(all 0.4s);

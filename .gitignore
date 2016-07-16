@@ -17,10 +17,5 @@
 # Ignore .DS_store file
 .DS_Store
 
-# Bower
-/bower_components/**/*
-/source/bower_components/**/*
+# Node
 /node_modules/
-
-# Middleman build folder
-/build/

@@ -7,9 +7,13 @@
     %title
       = current_page.data.title || "Page Title"
 
-    = yield_content(:javascripts)
     = yield_content(:stylesheets)
+    / = stylesheet_link_tag "app"
 
   %body{class: page_classes}
 
+    Yaaaas!
+
     = yield
+
+    = yield_content(:javascripts)

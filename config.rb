@@ -1,3 +1,14 @@
+
+# https://rossta.net/blog/using-webpack-with-middleman.html
+activate :external_pipeline,
+  name: :webpack,
+  command: build? ?
+  "./node_modules/webpack/bin/webpack.js --bail -p" :
+  "./node_modules/webpack/bin/webpack.js --watch -d --progress --color",
+  source: "build",
+  latency: 1
+
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
@@ -25,17 +36,12 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
-# Use bower in sprockets - http://fearmediocrity.co.uk/2014/01/25/using_bower_with_middleman/
-after_configuration do
-  sprockets.append_path File.join root.to_s, "source/bower_components"
-end
-
 # Deploy site to github pages
 activate :deploy do |deploy|
   
   deploy.build_before = true
 
-  deploy.method = :git
+  deploy.deploy_method = :git
   # Optional Settings
   # deploy.remote   = 'custom-remote' # remote name or git url, default: origin
   # deploy.branch   = 'custom-branch' # default: gh-pages

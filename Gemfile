@@ -7,8 +7,9 @@ gem 'bourbon', :git => 'https://github.com/animade/bourbon.git', :branch => 'bou
 
 gem 'haml'
 
-gem "middleman", "~>3.3.3"
+gem "middleman", "~> 4"
 
-gem "middleman-livereload", "~> 3.3.0"
+gem "middleman-livereload", "~> 3.4.3"
 
-gem 'middleman-deploy', '~> 1.0.0'
+# Get latest middleman-deploy build, version 1 doesn't support Middleman 4
+gem 'middleman-deploy', github: 'middleman-contrib/middleman-deploy', branch: 'master'

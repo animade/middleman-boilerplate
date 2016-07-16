@@ -2,7 +2,12 @@
 
 Repo for the Animade Middleman Boilerplate.
 
-It uses Haml, Sass, and Bourbon
+It makes use of the Middleman's external pipeline allowing for subprocesses to run alongside the dev server through custom integrations with packages like Webpack.
+
+It runs Webpack for quicker sass compilation, ES6 syntax, and making React gloablly available from the get go.
+
+It also uses Haml, Sass, and Bourbon.
+
 
 ## Setup
 
@@ -14,9 +19,14 @@ Then run the bundler to ensure the necessary gems are installed:
 
     bundle install
 
-Bower is used for package management:
+NPM is used for package management:
 
-    bower install
+    npm install
+
+
+Install bourbon manually by going into source/stylesheets:
+
+    bourbon install
     
 To get running, start the middleman server:
   
