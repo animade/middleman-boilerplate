@@ -19,9 +19,6 @@
 
 # Node
 /node_modules/
-<<<<<<< HEAD
 
 # Bourbon
 /source/stylesheets/bourbon
-=======
->>>>>>> e15bfdcf7b53fca9caea559856339c445a40df33

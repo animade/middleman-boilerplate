@@ -1,18 +1,8 @@
-<<<<<<< HEAD
 # Middleman + Webpack + React
 
 It makes use of the Middleman's external pipeline allowing for subprocesses to run alongside the dev server through custom integrations with packages like Webpack.
 
 It runs Webpack for quicker sass compilation, ES6, and makes React gloablly available from the get go.
-=======
-# Middleman Boilerplate
-
-Repo for the Animade Middleman Boilerplate.
-
-It makes use of the Middleman's external pipeline allowing for subprocesses to run alongside the dev server through custom integrations with packages like Webpack.
-
-It runs Webpack for quicker sass compilation, ES6 syntax, and making React gloablly available from the get go.
->>>>>>> e15bfdcf7b53fca9caea559856339c445a40df33
 
 It also uses Haml, Sass, and Bourbon.
 
@@ -31,12 +21,7 @@ NPM is used for package management:
 
     npm install
 
-
-<<<<<<< HEAD
-If you want to use Bourno, install it manually by going into source/stylesheets:
-=======
-Install bourbon manually by going into source/stylesheets:
->>>>>>> e15bfdcf7b53fca9caea559856339c445a40df33
+If you want to use Bourbon, install it manually by going into source/stylesheets:
 
     bourbon install
     

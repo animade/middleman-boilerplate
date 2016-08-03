@@ -1,24 +1,14 @@
 {
-<<<<<<< HEAD
   "name": "middleman-webpack-react",
   "version": "0.0.1",
   "description": "Middleman 4 with Webpack. React Ready",
-=======
-  "name": "balloons",
-  "version": "1.0.0",
-  "description": "Repo for the Animade Middleman Boilerplate.",
->>>>>>> e15bfdcf7b53fca9caea559856339c445a40df33
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-<<<<<<< HEAD
-    "url": "git+https://github.com/sneveu/middleman-webpack-react.git"
-=======
-    "url": "git+https://sneveu@bitbucket.org/sneveu/balloons.git"
->>>>>>> e15bfdcf7b53fca9caea559856339c445a40df33
+    "url": "git+https://github.com/animade/middleman-boilerplate.git"
   },
   "author": "",
   "license": "ISC",
