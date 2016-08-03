@@ -19,3 +19,6 @@
 
 # Node
 /node_modules/
+
+# Bourbon
+/source/stylesheets/bourbon

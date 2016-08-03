@@ -2,7 +2,7 @@
 
 It makes use of the Middleman's external pipeline allowing for subprocesses to run alongside the dev server through custom integrations with packages like Webpack.
 
-It runs Webpack for quicker sass compilation, ES6 syntax, and making React gloablly available from the get go.
+It runs Webpack for quicker sass compilation, ES6, and makes React gloablly available from the get go.
 
 It also uses Haml, Sass, and Bourbon.
 
@@ -22,7 +22,7 @@ NPM is used for package management:
     npm install
 
 
-Install bourbon manually by going into source/stylesheets:
+If you want to use Bourno, install it manually by going into source/stylesheets:
 
     bourbon install
     
