@@ -1,10 +1,10 @@
 import THREE from 'three';
-import Toy from './components/Toy';
+import Balloon from './components/Balloon';
 
 export class App extends React.Component{
 
   render() {
-    return <Toy />;
+    return <Balloon />;
   }
 
 };
